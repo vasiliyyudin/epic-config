@@ -1,0 +1,29 @@
+{
+    "name": "epic/config",
+    "type": "library",
+    "description": "New config for our projects",
+    "keywords": ["configuration", "config", "epic", "json", "yaml", "yml", "ini", "xml", "env", "dotenv"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vasiliy Yudin",
+            "role": "Developer",
+            "email": "yudin.php@gmail.com"
+        },
+        {
+            "name": "Alexey Tihomirov",
+            "role": "Developer",
+            "email": "tihomirov.php@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "josegonzalez/dotenv": "*",
+        "symfony/yaml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Epic\\": "src/"
+        }
+    }
+}
